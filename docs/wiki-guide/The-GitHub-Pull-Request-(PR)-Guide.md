@@ -2,9 +2,9 @@
 
 This guide is divided into three essential sections to help you effectively manage pull requests in a collaborative project:
 
-- [Creating a Pull Request](#1-creating-a-pull-request): This section explains how to properly prepare and submit a pull request (PR) to ensure that your changes are well-documented, easy to review, and aligned with project goals.
-- [Reviewing a Pull Request](#2-reviewing-a-pull-request): Learn the best practices for providing constructive feedback, identifying potential issues, and ensuring code quality during the review process.
-- [Responding to a Pull Request Review](#3-responding-to-a-pull-request-review): Understand how to address reviewer feedback, make necessary changes, and ensure your pull request meets the required standards for approval.
+- [Creating a Pull Request](#1-create-a-pull-request): This section explains how to properly prepare and submit a pull request (PR) to ensure that your changes are well-documented, easy to review, and aligned with project goals.
+- [Reviewing a Pull Request](#2-review-a-pull-request): Learn the best practices for providing constructive feedback, identifying potential issues, and ensuring code quality during the review process.
+- [Responding to a Pull Request Review](#3-respond-to-a-pull-request-review): Understand how to address reviewer feedback, make necessary changes, and ensure your pull request meets the required standards for approval.
 
 By following these steps, you will contribute to a smooth and efficient workflow, ensuring collaboration and quality in your project. 
 
@@ -39,7 +39,7 @@ In the pull request form, type a descriptive title for your PR. Provide a detail
 /// caption
 ///
 
-## **2. Reviewing a Pull Request**
+## **2. Review a Pull Request**
 
 ### 2.1 Navigate to the **Pull requests** tab
 
@@ -62,7 +62,7 @@ In the pull request page, click **Files changed** so as to see the changes.
 /// caption
 ///
 
-2.3.1 by clicking ![Gear icon](images/GH-PR-guide/362361806-198206f8-6d94-452f-b136-cebec0472e10.png){ loading=laze, width="20"}, you can choose the unified or split view. 
+2.3.1 by clicking ![Gear icon](images/GH-PR-guide/362361806-198206f8-6d94-452f-b136-cebec0472e10.png){ loading=lazy, width="20"}, you can choose the unified or split view. 
 
 ![Unified vs. split view for file diffs in a pull request](images/GH-PR-guide/362373284-ba099090-8f60-444f-8ae6-c7ab13b7d78f.png){ loading=lazy, width="600" }
 /// caption
@@ -124,7 +124,7 @@ Click Review changes, and then type comments to summarize your proposed changes.
 ### 2.11 Click Submit review
 Current review round is done; this publishes your comments and suggestions. Then the PR can either be merged or updated (depending on approval or comments). We generally expect that whoever submits the PR will merge once all feedback has been incorporated or otherwise addressed.
 
-## **3. Responding to a Pull Request Review**
+## **3. Respond to a Pull Request Review**
 
 ### 3.1 Navigate to the Repository's Main Page
 Navigate to your repository name, click **Pull requests**
