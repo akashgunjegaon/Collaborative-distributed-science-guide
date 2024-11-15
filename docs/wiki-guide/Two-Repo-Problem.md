@@ -57,6 +57,7 @@ After this step you should see a repo with at least 2 commits similar to the fol
 Once your repository is set up, only changes to the `ghpages` branch are recommended; establish branch protections on both `main` and `ghpages` that require review and approval (see [When to think about branch protections](When-to-think-about-branch-protections.md) for more information). 
 
 There are two issues at play here:
+
 1. There is potential to introduce merge conflicts when bringing in the development repo to merge with the `main` branch if it has been changed. Hence, it is important that you avoid making changes to the `main` branch after spin-off.
 2. The `ghpages` branch will generate the website for the publication. Hence, it is a "published" branch, requiring regular checks with protections like the `main` branch.
 
