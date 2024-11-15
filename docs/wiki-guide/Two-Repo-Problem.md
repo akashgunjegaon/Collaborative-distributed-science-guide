@@ -212,7 +212,9 @@ git reset --hard upstream/main
 ### Cherry Pick
 This method is used when the same commits exist in both repos with different hashes.
 This requires finding which commits are in the private repo but not in the public repo.
-__NOTE: If the commits you cherry-pick have commits in common with different hashes this will result in merge conflicts and duplicated commits.__
+
+!!! warning "Warning"
+    If the commits you cherry-pick have commits in common with different hashes this will result in merge conflicts and duplicated commits.
 
 After fetching your upstream branch you can cherry pick a range of commits to add like so:
 ```
