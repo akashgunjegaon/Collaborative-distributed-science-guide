@@ -186,7 +186,8 @@ Three approaches to resolve merging disparate public/private repos are documente
 ### Merge
 Merge commits from the `main` branch of the private repo into the `main` branch of the public repo.
 
-__NOTE: If the repos have commits in common with different hashes this will result in merge conflicts and duplicated commits.__
+!!! warning "Warning"
+    If the repos have commits in common with different hashes this will result in merge conflicts and duplicated commits.
 
 Merge the main branch of the private repo with the main branch of the public repo.
 As far as maintaining history this is the safest approach. Often this approach results in merge conflicts.
