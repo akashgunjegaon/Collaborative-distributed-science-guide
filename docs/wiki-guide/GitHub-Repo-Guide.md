@@ -140,7 +140,7 @@ references:
 
 **Dates and Times**
 
-For interoperability and avoiding ambiguity, [dates and times should be reported](https://dataoneorg.github.io/Education/bestpractices/describe-formats-for) in [ISO 8601 format](https://en.wikipedia.org/wiki/ISO_8601).
+For interoperability and to avoid ambiguity, [dates and times should be reported](https://dataoneorg.github.io/Education/bestpractices/describe-formats-for) in [ISO 8601 format](https://en.wikipedia.org/wiki/ISO_8601).
 
   - For dates, this means `YYYY-MM-DD` (for ISO 8601 compliance, the dashes are required).
   - For times, use `THHMMSS` in 24-hour format. 
