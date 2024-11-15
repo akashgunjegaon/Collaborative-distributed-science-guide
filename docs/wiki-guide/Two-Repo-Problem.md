@@ -200,7 +200,8 @@ git merge --allow-unrelated-histories ...
 ### Reset
 Replace all commits on the `main` branch of the public rep with commits from the `main` branch of the private repo.
 
-__NOTE: This will destroy all history in the public repo main branch!__
+!!! warning "Warning"
+    This will destroy all history in the public repo main branch!
 
 This option is only safe to do when releasing the first version of a version on the public repo.
 After setting up the remote for upstream run a command similar to the following:
