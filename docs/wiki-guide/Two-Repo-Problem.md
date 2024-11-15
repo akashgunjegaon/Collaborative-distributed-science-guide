@@ -2,6 +2,7 @@
 When working on a research project often the code is kept private until a paper is published.
 
 In conflict with this is the need to have a public repo for following purposes:
+
 - Host a website (via a `ghpages` branch)
 - Act as a placeholder for when the paper is published
 - Share code from an earlier paper
@@ -13,6 +14,7 @@ Once code changes are complete in the __private git repo__ moving them to the __
 For instance, if the __public git repo__ and the __private git repo__ were created separately they will have unrelated histories. 
 
 **Common challenges when merging:**
+
 - Determining the correct git commands and steps to perform the merge
 - Cleaning up many small commits into one or a few larger commits
 - Merge conflicts - Files such as the README that may have diverged and result in merge conflicts
@@ -29,6 +31,7 @@ The private repo will be created without any extra files so it will have no comm
 First create a public repo with commits.
 
 Visit https://github.com/organizations/Imageomics/repositories/new
+
 - Enter the public repo name
 - Click the checkbox for `Add a README file`
 - Choose a license
@@ -61,7 +64,8 @@ There are two issues at play here:
 #### 4. Create Private Repo
 First create a private repo __without__ commits.
 
-Visit https://github.com/organizations/Imageomics/repositories/new 
+Visit https://github.com/organizations/Imageomics/repositories/new
+
 - Enter the private repo name (ex: `<public-repo>-dev`)
 - __DO NOT__ check `Add a README file`
 - __DO NOT__ Choose a license
@@ -179,6 +183,7 @@ If you find yourself with two repositories that have misaligned histories, pleas
 If you already have a public and private repo with unrelated histories resolving this can be challenging.
 
 Three approaches to resolve merging disparate public/private repos are documented here.
+
 - Merge - use when the public and private repos contain only unrelated commits.
 - Reset - use when all public repo commits can be deleted and replaced with private repo commits.
 - Cherry Pick - use when the same commits exist in both repos with different hashes.
