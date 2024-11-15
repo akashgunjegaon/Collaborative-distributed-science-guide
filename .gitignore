@@ -1,2 +1,6 @@
 # Mac System
 .DS_Store
+
+# Additional
+__pycache__
+

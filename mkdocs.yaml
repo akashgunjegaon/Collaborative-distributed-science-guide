@@ -1,0 +1,88 @@
+site_name: "Imageomics Guide"
+site_description: "A guide to collaborative work for Imageomics, including GitHub and Hugging Face workflows."
+site_author: "Imageomics Institute"
+site_url: "https://Imageomics.github.io/Imageomics-guide/"
+edit_uri: view/main/docs
+
+repo_url: https://github.com/Imageomics/Imageomics-guide
+edit_uri: blob/main/docs/
+
+theme:
+  name: material
+  icon:
+    view: material/eye
+  logo: logos/Imageomics_logo_butterfly.png
+  favicon: logos/Imageomics_logo_butterfly.png
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+  features:
+    - content.action.view
+    - content.code.copy
+    - navigation.footer
+    - navigation.tabs
+
+plugins:
+  - glightbox
+  - macros
+  - search
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.betterem
+  - pymdownx.blocks.caption
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tasklist
+  - pymdownx.tilde
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - toc:
+      permalink: true
+      title: 📖 On This Page
+
+nav:
+  - Home: index.md
+  - GitHub Guide:
+      - "Repo Guide": wiki-guide/GitHub-Repo-Guide.md
+      - "Workflow": wiki-guide/The-GitHub-Workflow.md
+      - "Pull Request Guide": wiki-guide/The-GitHub-Pull-Request-(PR)-Guide.md
+      - "Projects Guide": wiki-guide/Guide-to-GitHub-Projects.md
+      - "Branch Protections": wiki-guide/When-to-think-about-branch-protections.md
+      - "Two Repo Problem": wiki-guide/Two-Repo-Problem.md
+  - Hugging Face Guide:
+      - "Repo Guide": wiki-guide/Hugging-Face-Repo-Guide.md
+      - "Workflow": wiki-guide/The-Hugging-Face-Workflow.md
+      - "Dataset Upload Guide": wiki-guide/The-Hugging-Face-Dataset-Upload-Guide.md
+  - Metadata Guide: wiki-guide/Metadata-Guide.md
+  - Templates:
+      - "Dataset Card Template": wiki-guide/HF_DatasetCard_Template_mkdocs.md
+      - "Model Card Template": wiki-guide/HF_ModelCard_Template_mkdocs.md
+  - Command Line Cheat Sheet: wiki-guide/Command-Line-Cheat-Sheet.md
+  - Code of Conduct: CODE_OF_CONDUCT.md
+  - Other Resources:
+      - "Glossary for Imageomics": wiki-guide/Glossary-for-Imageomics.md
+      - "Handling API Keys": wiki-guide/Handling-API-Keys.md
+      - "Helpful Tools": wiki-guide/Helpful-Tools-for-your-Workflow.md
+      - "Virtual Environments": wiki-guide/Virtual-Environments.md
