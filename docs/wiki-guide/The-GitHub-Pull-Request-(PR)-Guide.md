@@ -2,9 +2,9 @@
 
 This guide is divided into three essential sections to help you effectively manage pull requests in a collaborative project:
 
-- [Creating a Pull Request](#1-create-a-pull-request): This section explains how to properly prepare and submit a pull request (PR) to ensure that your changes are well-documented, easy to review, and aligned with project goals.
-- [Reviewing a Pull Request](#2-review-a-pull-request): Learn the best practices for providing constructive feedback, identifying potential issues, and ensuring code quality during the review process.
-- [Responding to a Pull Request Review](#3-respond-to-a-pull-request-review): Understand how to address reviewer feedback, make necessary changes, and ensure your pull request meets the required standards for approval.
+- [Create a Pull Request](#1-create-a-pull-request): This section explains how to properly prepare and submit a pull request (PR) to ensure that your changes are well-documented, easy to review, and aligned with project goals.
+- [Review a Pull Request](#2-review-a-pull-request): Learn the best practices for providing constructive feedback, identifying potential issues, and ensuring code quality during the review process.
+- [Respond to a Pull Request Review](#3-respond-to-a-pull-request-review): Understand how to address reviewer feedback, make necessary changes, and ensure your pull request meets the required standards for approval.
 
 By following these steps, you will contribute to a smooth and efficient workflow, ensuring collaboration and quality in your project. 
 
