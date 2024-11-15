@@ -110,7 +110,8 @@ Pull commits from the public repo.
 git pull upstream main
 ```
 
-NOTE: Running git remote -v will confirm where a standard git push (or git pull) will send (or receive) commits from.
+!!! note "Note"
+    Running `git remote -v` will confirm where a standard git push (or git pull) will send (or receive) commits from.
 
 
 ##### 5c. Push Commits to Private Repo on GitHub
