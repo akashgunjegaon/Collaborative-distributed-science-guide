@@ -16,11 +16,12 @@ The following example commands will get you set up with a Conda environment that
 ```bash
 conda env export --no-builds --from-history | grep -v "prefix" > environment.yml
 ```
-  - `--no-builds` and `--from-history` flags will cause the environment file to only specify the packages and versions that you manually installed. This may help with cross-platform compatibility by giving conda the flexibility to find compatible sub-dependencies on another system.
-  - `| grep -v "prefix"` eliminates your system-specific environment storage location (what is called the `prefix`) from being added to the file
-  - If you want to add the actual package versions that were installed (if you did not specify during installation) to the `environment.yml` file, you can check those and copy-paste them in manually with `conda env list`. 
-  - Don't forget to also add and track this new file with git!
-- To install the dependencies somewhere else from this file, use `conda env create -f environment.yml`.
+!!! info "Command breakdown"
+    - `--no-builds` and `--from-history` flags will cause the environment file to only specify the packages and versions that you manually installed. This may help with cross-platform compatibility by giving conda the flexibility to find compatible sub-dependencies on another system.
+    - `| grep -v "prefix"` eliminates your system-specific environment storage location (what is called the `prefix`) from being added to the file
+    - If you want to add the actual package versions that were installed (if you did not specify during installation) to the `environment.yml` file, you can check those and copy-paste them in manually with `conda env list`. 
+    - Don't forget to also add and track this new file with git!
+    - To install the dependencies somewhere else from this file, use `conda env create -f environment.yml`.
 
 ## Pip Virtual Environment
 For virtual environments using `pip` to install packages (Python environments), use `python -m pip freeze` to print a list of packages (and their versions) installed in the environment. `python -m pip freeze > requirements.txt` will populate a `requirements.txt` file with all these packages and versions listed (eg., `pandas==2.0.1`). Note that this will _not_ give only minimum software requirements, but will also print all dependencies. For more information, see the [pip documentation](https://pip.pypa.io/en/stable/cli/pip_freeze/).
