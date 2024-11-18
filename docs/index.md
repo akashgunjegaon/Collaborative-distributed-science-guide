@@ -30,9 +30,25 @@ Discover new tools to help:
 
 - [Virtual Environments](wiki-guide/Virtual-Environments.md): Summary of `conda` and `pip` environments: how to make, use, and share them.
 
-### Other pages of note
+
+## Collaborative Infrastructure We Use
+
+- GitHub
+    - [Institute Code Repositories](https://github.com/Imageomics) where we store our code (software + tools).
+- Hugging Face
+    - [Imageomics Organization page](https://huggingface.co/imageomics) where we store our datasets and models (and their metadata).
+    - Hugging Face [Docs](https://huggingface.co/docs)
+        - [Model Hub](https://huggingface.co/docs/hub/models-the-hub)
+        - [Datasets](https://huggingface.co/docs/hub/datasets-overview)
+
+### Collaborative Infrastructure Diagram
+![tech_infrastructure_diagram](wiki-guide/images/index/382108831-1173cd79-db94-4326-8b6e-dcbdeb8939cd.png)
+
+
+## Other pages of note
 - [Glossary for Imageomics](wiki-guide/Glossary-for-Imageomics.md): Collection of terms used in imageomics. The goal is to ensure all participating domains are represented, thus facilitating interdisciplinary communication. This is a group effort, please check it out and add terms you think should be there!
 - [Command Line Cheat Sheet](wiki-guide/Command-Line-Cheat-Sheet.md): Collection of useful bash, emacs, and git commands.
+
 
 <br>
 <br>
