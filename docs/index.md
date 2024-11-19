@@ -40,6 +40,7 @@ Discover new tools to help:
         - [GitHub Projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects)
 - Hugging Face
     - [Imageomics Organization page](https://huggingface.co/imageomics) where we store our datasets and models (and their metadata).
+    - Additionally, use [Hugging Face Spaces](https://huggingface.co/docs/hub/spaces) to run demos of models and other projects.
     - Hugging Face's [Docs](https://huggingface.co/docs)
         - [Model Hub](https://huggingface.co/docs/hub/models-the-hub)
         - [Datasets](https://huggingface.co/docs/hub/datasets-overview)
