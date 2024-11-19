@@ -2,7 +2,7 @@
 
 See also [GitHub's Markdown Guide](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
-## Useful bash, emacs, and git:
+## Useful bash and git
 | Command | Action |
 | --- | --- |
 | `<cmd> -h` |          print the help documentation for a command, showing usage information and options |
@@ -28,6 +28,9 @@ See also [GitHub's Markdown Guide](https://docs.github.com/en/get-started/writin
 | `git checkout -b <branch>`   | 		create new branch and check it out |
 | `git checkout <branch>`   |			checkout branch |
 | `git branch -d <branch>`   | 			delete branch |
+
+!!! tip "Pro tip: Simplify your git history"
+    - Use `git mv` to rename a file so that it is tracked as a rename (with or without changes). - If you rename a file then use `git add .` or similar, the diff will show the deletion of the original file and addition of a "completely new" file, even if nothing has changed. This makes reviewing changes much more complicated than necessary.
 
 #### Usual Process
 After making changes to a file on a branch, check the status of your current working branch (with `git status`). Then, you "add" the file, state what is new about the file ("commit the change"), and `push` the file from your local copy of the repo to the remote copy:
