@@ -37,6 +37,27 @@ theme:
     - navigation.footer
     - navigation.tabs
 
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Imageomics
+    - icon: simple/huggingface
+      link: https://huggingface.co/imageomics
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/imageomics-institute
+    - icon: fontawesome/brands/x-twitter
+      link: https://twitter.com/imageomics
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/imageomics/
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/@ImageomicsInstitute/videos
+    - icon: octicons/link-16
+      link: https://imageomics.org
+
+copyright: >
+  Any opinions, findings, and conclusions or recommendations expressed in the materials here are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.
+
+
 plugins:
   - glightbox
   - macros
