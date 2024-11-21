@@ -2,7 +2,7 @@
 
 See also [GitHub's Markdown Guide](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
-## Useful bash, emacs, and git:
+## Useful bash and git
 | Command | Action |
 | --- | --- |
 | `<cmd> -h` |          print the help documentation for a command, showing usage information and options |
@@ -29,6 +29,10 @@ See also [GitHub's Markdown Guide](https://docs.github.com/en/get-started/writin
 | `git checkout <branch>`   |			checkout branch |
 | `git branch -d <branch>`   | 			delete branch |
 
+!!! tip "Pro tip: Simplify your git history"
+    - Use `git mv` to rename a file so that it is tracked as a rename (with or without changes). 
+    - If you rename a file then `git add` its parent directory, the diff will show the deletion of the original file and addition of a "completely new" file, even if nothing has changed. This makes reviewing changes much more complicated than necessary.
+
 #### Usual Process
 After making changes to a file on a branch, check the status of your current working branch (with `git status`). Then, you "add" the file, state what is new about the file ("commit the change"), and `push` the file from your local copy of the repo to the remote copy:
 
@@ -40,6 +44,9 @@ git commit -m "Changed x,y,z"
 git push
 
 ```
+
+!!! tip "Pro tip: Check the stage"
+    After using `git add <folder>` or `git add <regex>` (a pattern match), run `git status` to ensure that all intended files--and ***only*** intended files--are staged for commit.
 
 !!! note Note
     If you need to update your branch with changes from the remote `main`, first switch to the branch, then set pull from `main` instead of the current branch, as below.
