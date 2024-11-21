@@ -37,6 +37,9 @@ theme:
     - navigation.footer
     - navigation.tabs
 
+extra_css:
+  - stylesheets/extra.css
+
 extra:
   social:
     - icon: fontawesome/brands/github
@@ -56,7 +59,6 @@ extra:
 
 copyright: >
   The Imageomics Institute is supported by the National Science Foundation under Award No. 2118240 "HDR Institute: Imageomics: A New Frontier of Biological Information Powered by Knowledge-Guided Machine Learning." Any opinions, findings and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.
-
 
 plugins:
   - glightbox
