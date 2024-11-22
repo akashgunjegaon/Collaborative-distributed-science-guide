@@ -28,7 +28,8 @@ Hugging Face allows for the generation of a DOI through the settings tab on the 
 
 ### 2. Generate a DOI with Zenodo
 
-This is the most common method used for generating a DOI for a GitHub repository, because [Zenodo](https://zenodo.org/) has a [GitHub integration](https://zenodo.org/account/settings/github/), which is accessed through your Zenodo account settings (for more information, please see [GitHub's associated Docs](https://docs.github.com/articles/referencing-and-citing-content)). Zenodo can also be used to generate DOIs for data, as is relatively common in biology. However, for direct use of ML models and datasets, there are many more advantages to using Hugging Face; please see the [Data Archive Options Comparative Overview](../pdfs/Data_Archive-Publication-Options-Comparative-Overview.pdf) for more information.*
+This is the most common method used for generating a DOI for a GitHub repository, because [Zenodo](https://zenodo.org/) has a [GitHub integration](https://zenodo.org/account/settings/github/), which is accessed through your Zenodo account settings (for more information, please see [GitHub's associated Docs](https://docs.github.com/articles/referencing-and-citing-content)). Zenodo can also be used to generate DOIs for data, as is relatively common in biology. However, for direct use of ML models and datasets, there are many more advantages to using Hugging Face; please see the [Data Archive Options Comparative Overview](../pdfs/Data_Archive-Publication-Options-Comparative-Overview.pdf) for more information.[^1]
+[^1]: The [Data Archive Options Comparative Overview](../pdfs/Data_Archive-Publication-Options-Comparative-Overview.pdf) was created in May 2023 when we were deciding Institute archive recommendations, so it does not include information about newer features such as [Hugging Face's dataset viewer](https://huggingface.co/docs/hub/en/datasets-viewer), which greatly simplifies previewing datasets for downstream users.
 
 #### Automatic Generation
 
@@ -72,9 +73,5 @@ When creating a new record on Zenodo, please ensure that other members of your p
 
 ### 3. Generate a DOI with Dryad
 
-[Dryad](https://datadryad.org/stash/about) is another research data repository, similar to Zenodo, through which one can archive digital objects (such as, but not limited to, data) supporting scholarly publications, and obtain a DOI. It has a review process when depositing data and requires dedication to the public domain (CC0) of all digital objects uploaded. Imageomics through OSU is a member organization of Dryad, reducing or eliminating data deposit charge(s). To determine whether Dryad is a suitable archive for Institute data products supporting your publication, please consider the [Data Archive Options Comparative Overview](../pdfs/Data_Archive-Publication-Options-Comparative-Overview.pdf) for more information, and consult with the Institute's Senior Data Scientist.*
+[Dryad](https://datadryad.org/stash/about) is another research data repository, similar to Zenodo, through which one can archive digital objects (such as, but not limited to, data) supporting scholarly publications, and obtain a DOI. It has a review process when depositing data and requires dedication to the public domain (CC0) of all digital objects uploaded. Imageomics through OSU is a member organization of Dryad, reducing or eliminating data deposit charge(s). To determine whether Dryad is a suitable archive for Institute data products supporting your publication, please consider the [Data Archive Options Comparative Overview](../pdfs/Data_Archive-Publication-Options-Comparative-Overview.pdf) for more information, and consult with the Institute's Senior Data Scientist.[^1]
 
-<br>
-<br>
-
-*<sub><sup>The [Data Archive Options Comparative Overview](../pdfs/Data_Archive-Publication-Options-Comparative-Overview.pdf) was created in May 2023 when we were deciding Institute archive recommendations, so it does not include information about newer features such as [Hugging Face's dataset viewer](https://huggingface.co/docs/hub/en/datasets-viewer), which greatly simplifies previewing datasets for downstream users.</sup></sub>
