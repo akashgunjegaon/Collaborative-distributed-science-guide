@@ -5,7 +5,7 @@ You are likely familiar with DOIs from citing (journal/arXiv/conference) papers,
 
 ## What is a DOI?
 
-A DOI (Digital Object Identifier) is a _persistent_ (permanent) digital identifier for any object (data, model, code, etc.) that _uniquely_ distinguishes it from other objects and links to information (or metadata) about the object. See the doi Foundation's [What is a DOI](https://www.doi.org/the-identifier/what-is-a-doi/) for more information.
+A DOI (Digital Object Identifier) is a _persistent_ (permanent) digital identifier for any object (data, model, code, etc.) that _uniquely_ distinguishes it from other objects and links to information&mdash;metadata&mdash;about the object. See the doi Foundation's [What is a DOI](https://www.doi.org/the-identifier/what-is-a-doi/) for more information.
 
 
 ## How do you generate a DOI?
@@ -32,7 +32,7 @@ This is the most common method used for generating a DOI for a GitHub repository
 
 #### Automatic Generation
 
-When your GitHub and Zenodo accounts are linked, there will be a list of available repositories under the GitHub tab (at Zenodo) in settings. All those that are enabled are grouped at the top (just below the instructions). If a repository is enabled (the switch is on), then on your next GitHub release, a snapshot of the repository with a DOI (or updated DOI) will be generated. Click on the DOI badge next to the repository to get the code to add the badge to your repository README. Clicking on the repository name will take you to information about that repository's releases.
+When your GitHub and Zenodo accounts are linked, there will be a list of available repositories under the GitHub tab in settings on Zenodo. All those that are enabled are grouped at the top (just below the instructions). If the switch is on to enable a repository, then your next GitHub release will trigger the generation of a repository snapshot with a new or updated DOI. Click on the DOI badge next to the repository to get the code to add the badge to your repository README. Clicking on the repository name will take you to information about that repository's releases.
 
 ![Zenodo instructions and enabled repos](images/doi-generation/enabled_repos+intstructions.png){ loading=lazy, width="800" }
 
@@ -69,7 +69,7 @@ When creating a new record on Zenodo, please ensure that other members of your p
 
 ### 3. Generate a DOI with Dryad
 
-[Dryad](https://datadryad.org/stash/about) is another research data repository (similar to Zenodo) through which one can archive digital objects (such as, but not limited to, data) supporting scholarly publications, and obtain a DOI. It has a review process when depositing data and requires dedication to the public domain (CC0) of all digital objects uploaded. Imageomics through OSU is a member organization of Dryad, reducing or eliminating data deposit charge(s). To determine whether Dryad is a suitable archive for Institute data products supporting your publication, please consider the [Data Archive Options Comparative Overview](../pdfs/Data_Archive-Publication-Options-Comparative-Overview.pdf) for more information, and consult with the Institute's Senior Data Scientist.*
+[Dryad](https://datadryad.org/stash/about) is another research data repository, similar to Zenodo, through which one can archive digital objects (such as, but not limited to, data) supporting scholarly publications, and obtain a DOI. It has a review process when depositing data and requires dedication to the public domain (CC0) of all digital objects uploaded. Imageomics through OSU is a member organization of Dryad, reducing or eliminating data deposit charge(s). To determine whether Dryad is a suitable archive for Institute data products supporting your publication, please consider the [Data Archive Options Comparative Overview](../pdfs/Data_Archive-Publication-Options-Comparative-Overview.pdf) for more information, and consult with the Institute's Senior Data Scientist.*
 
 <br>
 <br>
