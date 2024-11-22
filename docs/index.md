@@ -52,6 +52,14 @@ Discover new tools to help:
 ![tech_infrastructure_diagram](wiki-guide/images/index/382108831-1173cd79-db94-4326-8b6e-dcbdeb8939cd.png)
 
 
+## Imageomics Branding (Logos)
+
+We have two versions of the logo, a [fish](logos/Imageomics_logo_fish.png) and a [butterfly](logos/Imageomics_logo_butterfly.png), which should be used for scientific posters, conference, workshop, and meeting marketing materials, etc. Choice of logo is based on user preference.
+
+![butterfly logo](logos/Imageomics_logo_butterfly.png){: style="width:45%"}
+![fish logo](logos/Imageomics_logo_fish.png){: style="width:45%"}
+
+
 ## Other pages of note
 - [Glossary for Imageomics](wiki-guide/Glossary-for-Imageomics.md): Collection of terms used in imageomics. The goal is to ensure all participating domains are represented, thus facilitating interdisciplinary communication. This is a group effort, please check it out and add terms you think should be there!
 - [Command Line Cheat Sheet](wiki-guide/Command-Line-Cheat-Sheet.md): Collection of useful bash and git commands with some git tips.

@@ -5,14 +5,6 @@ Welcome to the Imageomics Guide!
 Just joining or starting a new project? 
 Checkout the [Imageomics Guide](https://imageomics.github.io/Imageomics-guide/) for guidance on conventions and best practices.
 
-## Logos
-
-We have two versions of the logo, a [fish](logos/Imageomics_logo_fish.png) and a [butterfly](logos/Imageomics_logo_butterfly.png), which should be used for scientific posters, conference, workshop, and meeting marketing materials, etc. Choice of logo is based on user preference.
-<p align="middle">
-  <img src="https://github.com/Imageomics/Imageomics-guide/blob/main/docs/logos/Imageomics_logo_butterfly.png" width=45%/>
-  <img src="https://github.com/Imageomics/Imageomics-guide/blob/main/docs/logos/Imageomics_logo_fish.png" width=45%/>
-</p>
-
 
 ## Templates
 
