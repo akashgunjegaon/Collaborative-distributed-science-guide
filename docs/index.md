@@ -1,9 +1,12 @@
-# Welcome to the Imageomics Institute!
+# Welcome to the Imageomics Institute Guide!
 
-This wiki is intended to host internal documentation, making the information needed to get started with and use institute resources readily available to all members. It will evolve continuously with the institute.
+This website hosts guides to Imageomics workflows, documentation, and general best-practices for collaborative science. We aim to provide a helpful resource for a broad base of scientists working in the field of [_imageomics_](wiki-guide/Glossary-for-Imageomics.md/#imageomics) and beyond.
+
+It houses the information needed to get started with and use institute resources readily available to all members. However, most of this guide is broadly applicable to anyone working more broadly in the field of imageomics or adjacent fields of computer and data science, and is tailored to help domain scientists bridging that gap.
 
 ## Highlights
-There are many pages of useful information contained in this wiki covering a range of topics from institute hardware, to repositories and archives, to a glossary of _imageomics-related_ terms.
+
+There are many pages of useful information contained in this guide covering a range of topics from project management and workflows, to repositories and archives, to a glossary of _imageomics-related_ terms for improved interdisciplinary communication.
 
 ### Just starting a project?
 Check out our guides to get your project off on the right foot!
@@ -12,7 +15,7 @@ Check out our guides to get your project off on the right foot!
 
 - [The Hugging Face Repo Guide](wiki-guide/Hugging-Face-Repo-Guide.md): Analogous expected and suggested repository contents for Hugging Face repositories; there are notable differences from GitHub in both content and structure.
 
-- [Metadata Guide](wiki-guide/Metadata-Guide.md): Guide to metadata collection and documentation. This closely follows the [HF Dataset Card Template](wiki-guide/HF_DatasetCard_Template_mkdocs.md) sections.
+- [Metadata Guide](wiki-guide/Metadata-Guide.md): Guide to metadata collection and documentation. This closely follows our [HF Dataset Card Template](wiki-guide/HF_DatasetCard_Template_mkdocs.md) sections.
 
 ### Project repo up, what's next?
 Check out our workflow guides for how to interact with your new repo:
@@ -51,7 +54,7 @@ Discover new tools to help:
 
 ## Other pages of note
 - [Glossary for Imageomics](wiki-guide/Glossary-for-Imageomics.md): Collection of terms used in imageomics. The goal is to ensure all participating domains are represented, thus facilitating interdisciplinary communication. This is a group effort, please check it out and add terms you think should be there!
-- [Command Line Cheat Sheet](wiki-guide/Command-Line-Cheat-Sheet.md): Collection of useful bash, emacs, and git commands.
+- [Command Line Cheat Sheet](wiki-guide/Command-Line-Cheat-Sheet.md): Collection of useful bash and git commands with some git tips.
 
 
 <br>
