@@ -26,3 +26,14 @@ To use the template for a new dataset or model repository on Hugging Face (HF), 
 
 ### GitHub Projects
 To help you get started working with [GitHub Projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects), we have an [Imageomics General Project Template](https://github.com/orgs/Imageomics/projects/31/views/1) with both a [Taskboard](https://github.com/orgs/Imageomics/projects/31/views/1) and [Table](https://github.com/orgs/Imageomics/projects/31/views/2) view initialized, along with label and milestone displays turned on. To learn more about working with GitHub Projects and how this might improve your project workflow, check out our [Guide to GitHub Projects](https://imageomics.github.io/Imageomics-guide/wiki-guide/Guide-to-GitHub-Projects/).
+
+## Testing
+To test this site locally, first clone this repository, then create an environment with `requirements.txt`
+```
+pip install -r requirements.txt
+```
+and run `mkdocs serve`:
+```
+mkdocs serve
+```
+Then the site will run at http://127.0.0.1:8000/Imageomics-guide/.
