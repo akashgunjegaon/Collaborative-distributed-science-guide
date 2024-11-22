@@ -10,7 +10,7 @@ A DOI (Digital Object Identifier) is a _persistent_ (permanent) digital identifi
 
 ## How do you generate a DOI?
 
-When publishing code, data, or models, there are various options for DOI generation, and selecting one is generally dependent on where the object of interest is published. We will go over the two standard methods used by the Institute here, and mention a third option for completeness. A comparison of these three options is provided in the [Data Archive Options Comparative Overview](../pdfs/Data_Archive-Publication-Options-Comparative-Overview.pdf).
+When publishing code, data, or models, there are various options for DOI generation, and selecting one is generally dependent on where the object of interest is published. We will go over the two standard methods used by the Institute here, and we mention a third option for completeness. A comparison of these three options is provided in the [Data Archive Options Comparative Overview](../pdfs/Data_Archive-Publication-Options-Comparative-Overview.pdf).
 
 
 ### 1. Generate a DOI on Hugging Face
@@ -36,7 +36,8 @@ When your GitHub and Zenodo accounts are linked, there will be a list of availab
 
 ![Zenodo instructions and enabled repos](images/doi-generation/enabled_repos+intstructions.png){ loading=lazy, width="800" }
 
-<sub><sup>There is a "Sync now" button at the top right of the instructions, with information on when the last sync occurred. Observe that a badge appears for the enabled repository that <b>_has_</b> a DOI, while the one without just shows up as enabled; this will also be true for repositories to which you have access but that you did not submit to Zenodo yourself.</sup></sub>
+!!! info "The Sync now button"
+    There is a "Sync now" button at the top right of the instructions, with information on when the last sync occurred. Observe that a badge appears for the enabled repository that <b>_has_</b> a DOI, while the one without just shows up as enabled; this will also be true for repositories to which you have access but that you did not submit to Zenodo yourself.
 
 #### Metadata Tracking
 
@@ -44,7 +45,9 @@ When automatically generating a DOI with Zenodo, it uses information provided in
 
 If your repository is likely to be updated repeatedly (i.e., generating new releases), then you may consider adding a `.zenodo.json` to preserve the remaining metadata on release sync with Zenodo for DOI. This metadata includes grant (funding) information, references (which may be included in your `CITATION.cff`), and a description of your repository/code.
 
-A `.zenodo.json` can be created by applying [cffconvert](https://github.com/citation-file-format/cffconvert) to your `CITATION.cff` (without the references, as these are not supported). Then add the references and other metadata back in to the JSON (following the [Zenodo dev guide](https://developers.zenodo.org/#representation)). An example of this is the [Andromeda Zenodo JSON](https://github.com/Imageomics/Andromeda/blob/main/.zenodo.json), which was created in [this PR](https://github.com/Imageomics/Andromeda/pull/109).
+A `.zenodo.json` can be created by applying [cffconvert](https://github.com/citation-file-format/cffconvert) to your `CITATION.cff` (without the references, as these are not supported). Then add the references and other metadata back in to the JSON (following the [Zenodo dev guide](https://developers.zenodo.org/#representation)). 
+!!! example "Example `.zenodo.json`"
+    An example of this is the [Andromeda Zenodo JSON](https://github.com/Imageomics/Andromeda/blob/main/.zenodo.json), which was created in [this PR](https://github.com/Imageomics/Andromeda/pull/109).
 The `publication_date` and `version` will need to be updated along with the `CITATION.cff` for each release.
 
 _Alternatively_, this information can be updated manually on the Zenodo page for the DOI record. When logged in to Zenodo, a large orange "Edit" button will appear in the top right (as in the image below). There is the ability to save as you go (without publishing the metadata changes) and an additional option to share a link with collaborators to view the suggested record information.
