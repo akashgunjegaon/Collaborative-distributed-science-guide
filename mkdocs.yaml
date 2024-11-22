@@ -100,7 +100,9 @@ nav:
       - "Workflow": wiki-guide/The-Hugging-Face-Workflow.md
       - "Dataset Upload Guide": wiki-guide/The-Hugging-Face-Dataset-Upload-Guide.md
       - "Why Use the Institute Hugging Face": wiki-guide/Why-use-the-Institute-Hugging-Face.md
-  - Metadata Guide: wiki-guide/Metadata-Guide.md
+  - Metadata Guide: 
+      - "Metadata Guide": wiki-guide/Metadata-Guide.md
+      - "DOI Generation": wiki-guide/doi-generation.md
   - Templates:
       - "Dataset Card Template": wiki-guide/HF_DatasetCard_Template_mkdocs.md
       - "Model Card Template": wiki-guide/HF_ModelCard_Template_mkdocs.md
