@@ -36,6 +36,7 @@ theme:
     - content.code.copy
     - navigation.footer
     - navigation.tabs
+    - navigation.tabs.sticky
 
 extra_css:
   - stylesheets/extra.css
