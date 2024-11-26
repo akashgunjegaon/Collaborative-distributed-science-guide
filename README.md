@@ -5,19 +5,13 @@ Welcome to the Imageomics Guide!
 Just joining or starting a new project? 
 Checkout the [Imageomics Guide](https://imageomics.github.io/Imageomics-guide/) for guidance on conventions and best practices.
 
+## About the Guide
 
-## Templates
+This guide was created from our Institute internal-guidelines wiki, which was primarily focused on providing guidance and best practices for collaborative and interdisciplinary (computer science + biology) work. We moved the vast majority of the guidelines to this [guide](https://imageomics.github.io/Imageomics-guide/), since the topics and suggestions are broadly applicable to anyone working in similar or adjacent fields. To increase accessibility for those less familiar with GitHub, we generated the [site](https://imageomics.github.io/Imageomics-guide/) from our Markdown wiki documents with [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/).
 
-### Hugging Face
-We have Imageomics-specific versions of Hugging Face's Dataset and Model Card templates with guidance and examples, along with some reference information for their flavor of markdown and the Imageomics grant information. 
+Please feel free to open an [issue](https://github.com/Imageomics/Imageomics-guide/issues) with any questions regarding the content fo this guide or if you would like to contribute to the [Glossary](https://imageomics.github.io/Imageomics-guide/wiki-guide/Glossary-for-Imageomics/) or [Helpful Tools page](https://imageomics.github.io/Imageomics-guide/wiki-guide/Helpful-Tools-for-your-Workflow/).
 
-To use the template for a new dataset or model repository on Hugging Face (HF), just navigate to the "Model/Dataset Card" tab on your repo, select "Create Model/Dataset Card", then copy and paste the contents of the appropriate template ([Dataset Card](docs/wiki-guide/HF_DatasetCard_Template_Imageomics.md?plain=1) or [Model Card](docs/wiki-guide/HF_ModelCard_Template_Imageomics.md?plain=1)) into the README.md file. For more information on working with Hugging Face, see the [HF Repo Guide](https://imageomics.github.io/Imageomics-guide/wiki-guide/Hugging-Face-Repo-Guide/) and [HF Workflow](https://imageomics.github.io/Imageomics-guide/wiki-guide/The-Hugging-Face-Workflow/) entries in the [Imageomics Guide](https://imageomics.github.io/Imageomics-guide/).
-
-> [!NOTE]
-> The Dataset and Model cards have incorporated some of Hugging Face's January 2024 updates (following their [Dataset Card Overhaul](https://github.com/huggingface/huggingface_hub/commit/6dd7ee829bd1b1216663a9993c1943c29b64690a)). It doesn't appear they will be updated more and we do not currently anticipate further large updates on our end as our overall template formats have diverged, but you may nevertheless wish to check HF for extra information or tagging updates ([HF Dataset Card](https://github.com/huggingface/huggingface_hub/blob/main/src/huggingface_hub/templates/datasetcard_template.md), [HF Model Card](https://github.com/huggingface/huggingface_hub/blob/main/src/huggingface_hub/templates/modelcard_template.md)).
-
-
-## Testing
+### Testing
 To test this site locally, first clone this repository, then create an environment with `requirements.txt`
 ```
 pip install -r requirements.txt
