@@ -105,6 +105,7 @@ nav:
       - "Metadata Guide": wiki-guide/Metadata-Guide.md
       - "DOI Generation": wiki-guide/doi-generation.md
   - Templates:
+      - "About Templates": wiki-guide/About-Templates.md
       - "Dataset Card Template": wiki-guide/HF_DatasetCard_Template_mkdocs.md
       - "Model Card Template": wiki-guide/HF_ModelCard_Template_mkdocs.md
   - Command Line Cheat Sheet: wiki-guide/Command-Line-Cheat-Sheet.md
