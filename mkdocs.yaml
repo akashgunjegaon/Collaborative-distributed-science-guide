@@ -103,7 +103,7 @@ nav:
       - "Why Use the Institute Hugging Face": wiki-guide/Why-use-the-Institute-Hugging-Face.md
   - Metadata Guide: 
       - "Metadata Guide": wiki-guide/Metadata-Guide.md
-      - "DOI Generation": wiki-guide/doi-generation.md
+      - "DOI Generation": wiki-guide/DOI-Generation.md
   - Templates:
       - "About Templates": wiki-guide/About-Templates.md
       - "Dataset Card Template": wiki-guide/HF_DatasetCard_Template_mkdocs.md
