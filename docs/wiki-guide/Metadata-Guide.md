@@ -1,6 +1,6 @@
 # Metadata Guide
 
-When collecting or compiling new data, there are generally questions one is _trying_ to answer. There are also often questions that will come up later--whether for yourself or others interested in using your data. 
+When collecting or compiling new data, there are generally questions one is _trying_ to answer. There are also often questions that will come up later&mdash;whether for yourself or others interested in using your data. 
 
 To improve both the _**Findability**_ and _**Reusability**_ of your data (ensuring [FAIR principles](Glossary-for-Imageomics.md#fair-data-principles)) for yourself and others, be sure to note down the following information.
 
