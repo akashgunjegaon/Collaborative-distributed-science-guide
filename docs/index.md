@@ -2,7 +2,7 @@
 
 This website hosts guides to Imageomics workflows, documentation, and general best-practices for collaborative science. We aim to provide a helpful resource for a broad base of scientists working in the field of [_imageomics_](wiki-guide/Glossary-for-Imageomics.md/#imageomics) and beyond.
 
-It houses the information needed to get started with and use institute resources readily available to all members. However, most of this guide is broadly applicable to anyone working more broadly in the field of imageomics or adjacent fields of computer and data science, and is tailored to help domain scientists bridging that gap.
+It houses the information needed to get started with and use institute resources readily available to all members. However, most of this guide is applicable to anyone working more broadly in the field of imageomics or adjacent fields of computer and data science, and it is tailored to help domain scientists bridging that gap.
 
 ## Highlights
 
