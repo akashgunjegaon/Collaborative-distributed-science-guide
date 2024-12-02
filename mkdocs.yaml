@@ -112,8 +112,8 @@ nav:
   - Command Line Cheat Sheet: wiki-guide/Command-Line-Cheat-Sheet.md
   - Code of Conduct: CODE_OF_CONDUCT.md
   - Other Resources:
-      - "Glossary for Imageomics": wiki-guide/Glossary-for-Imageomics.md
-      - "Handling API Keys": wiki-guide/Handling-API-Keys.md
-      - "Helpful Tools": wiki-guide/Helpful-Tools-for-your-Workflow.md
       - "Technical Infrastructure": wiki-guide/Technical-Infrastructure.md
       - "Virtual Environments": wiki-guide/Virtual-Environments.md
+      - "Helpful Tools": wiki-guide/Helpful-Tools-for-your-Workflow.md
+      - "Handling API Keys": wiki-guide/Handling-API-Keys.md
+      - "Glossary for Imageomics": wiki-guide/Glossary-for-Imageomics.md
