@@ -107,6 +107,8 @@ Assign appropriate reviewer(s) and/or link the PR to a project.
 ### 12. Submit the PR.
 Click `Create pull request` to submit.
 
+For more details and guidance on the GitHub pull request process, please see our [GitHub Pull Request Guide](The-GitHub-Pull-Request-Guide.md).
+
 ### 13. Clean up branches.
 After a branch is merged and a PR is closed, delete the branch from the remote and your local repository to keep things tidy.
 

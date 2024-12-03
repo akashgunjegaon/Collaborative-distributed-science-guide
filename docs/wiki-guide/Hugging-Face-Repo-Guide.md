@@ -71,4 +71,4 @@ git push origin pr/<PR#>:refs/pr/<PR#>
 For more information on Hugging Face Pull Requests and Discussions, see their [documentation](https://huggingface.co/docs/hub/repositories-pull-requests-discussions).
 
 ## Templates for Model and Dataset Cards
-See [here](https://github.com/Imageomics/Imageomics-Guide#hugging-face) for guidelines on using templates for these important pieces of documentation.
+See [About Templates](About-Templates.md) for guidelines on using templates for these important pieces of documentation.

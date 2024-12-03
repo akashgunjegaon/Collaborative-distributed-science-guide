@@ -34,8 +34,8 @@ theme:
   features:
     - content.action.view
     - content.code.copy
-    - navigation.footer
     - navigation.tabs
+    - navigation.tabs.sticky
 
 extra_css:
   - stylesheets/extra.css
@@ -78,6 +78,7 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tasklist
   - pymdownx.tilde
+  - pymdownx.keys
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
@@ -91,7 +92,7 @@ nav:
   - GitHub Guide:
       - "Repo Guide": wiki-guide/GitHub-Repo-Guide.md
       - "Workflow": wiki-guide/The-GitHub-Workflow.md
-      - "Pull Request Guide": wiki-guide/The-GitHub-Pull-Request-(PR)-Guide.md
+      - "Pull Request Guide": wiki-guide/The-GitHub-Pull-Request-Guide.md
       - "Projects Guide": wiki-guide/Guide-to-GitHub-Projects.md
       - "Branch Protections": wiki-guide/When-to-think-about-branch-protections.md
       - "Two Repo Problem": wiki-guide/Two-Repo-Problem.md
@@ -103,15 +104,16 @@ nav:
       - "Why Use the Institute Hugging Face": wiki-guide/Why-use-the-Institute-Hugging-Face.md
   - Metadata Guide: 
       - "Metadata Guide": wiki-guide/Metadata-Guide.md
-      - "DOI Generation": wiki-guide/doi-generation.md
+      - "DOI Generation": wiki-guide/DOI-Generation.md
   - Templates:
+      - "About Templates": wiki-guide/About-Templates.md
       - "Dataset Card Template": wiki-guide/HF_DatasetCard_Template_mkdocs.md
       - "Model Card Template": wiki-guide/HF_ModelCard_Template_mkdocs.md
   - Command Line Cheat Sheet: wiki-guide/Command-Line-Cheat-Sheet.md
   - Code of Conduct: CODE_OF_CONDUCT.md
   - Other Resources:
-      - "Glossary for Imageomics": wiki-guide/Glossary-for-Imageomics.md
-      - "Handling API Keys": wiki-guide/Handling-API-Keys.md
-      - "Helpful Tools": wiki-guide/Helpful-Tools-for-your-Workflow.md
       - "Technical Infrastructure": wiki-guide/Technical-Infrastructure.md
       - "Virtual Environments": wiki-guide/Virtual-Environments.md
+      - "Helpful Tools": wiki-guide/Helpful-Tools-for-your-Workflow.md
+      - "Handling API Keys": wiki-guide/Handling-API-Keys.md
+      - "Glossary for Imageomics": wiki-guide/Glossary-for-Imageomics.md

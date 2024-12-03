@@ -1,4 +1,4 @@
-# **GitHub Pull Request (PR) Guide Overview**
+# GitHub Pull Request (PR) Guide Overview
 
 This guide is divided into three essential sections to help you effectively manage pull requests in a collaborative project:
 
@@ -9,8 +9,8 @@ This guide is divided into three essential sections to help you effectively mana
 By following these steps, you will contribute to a smooth and efficient workflow, ensuring collaboration and quality in your project. 
 
 
-## **1. Create a Pull Request**
-Before creating a pull request, first, please follow [2.1. The GitHub Workflow](The-GitHub-Workflow.md) to create and push your Branch. 
+## 1. Create a Pull Request
+Before creating a pull request, first, please follow [the GitHub Workflow](The-GitHub-Workflow.md) to create and push your branch. 
 
 ### 1.1 Navigate to the Repository's Main Page
 On GitHub, go to the main page of the repository where you’ve pushed your branch.
@@ -39,7 +39,7 @@ In the pull request form, type a descriptive title for your PR. Provide a detail
 /// caption
 ///
 
-## **2. Review a Pull Request**
+## 2. Review a Pull Request
 
 ### 2.1 Navigate to the **Pull requests** tab
 
@@ -124,7 +124,7 @@ Click Review changes, and then type comments to summarize your proposed changes.
 ### 2.11 Click Submit review
 Current review round is done; this publishes your comments and suggestions. Then the PR can either be merged or updated (depending on approval or comments). We generally expect that whoever submits the PR will merge once all feedback has been incorporated or otherwise addressed.
 
-## **3. Respond to a Pull Request Review**
+## 3. Respond to a Pull Request Review
 
 ### 3.1 Navigate to the Repository's Main Page
 Navigate to your repository name, click **Pull requests**
