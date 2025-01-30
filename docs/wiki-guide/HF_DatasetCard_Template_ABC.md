@@ -18,6 +18,7 @@ NOTE: Add more tags (your particular animal, type of model and use-case, etc.).
 
 As with your GitHub Project repo, it is important to choose an appropriate license for your dataset. The default license is [CC0](https://creativecommons.org/publicdomain/zero/1.0/) (public domain dedication, see [Dryad's explanation of why to use CC0](https://blog.datadryad.org/2023/05/30/good-data-practices-removing-barriers-to-data-reuse-with-cc0-licensing/)). Alongside the appropriate stakeholders (eg., your PI, co-authors), select a license that is [Open Source Initiative](https://opensource.org/licenses) (OSI) compliant.
 For more information on how to choose a license and why it matters, see [Choose A License](https://choosealicense.com) and [A Quick Guide to Software Licensing for the Scientist-Programmer](https://doi.org/10.1371/journal.pcbi.1002598) by A. Morin, et al.
+
 See the [ABC Global Center policy for licensing](https://docs.google.com/document/d/1SlITG-r7kdJB6C8f4FCJ9Z7o7ccwldZoSRJKjhRAWVA/edit#heading=h.c1sxg0wsiqru) for more information.
 
 See more options for the above information by clicking "edit dataset card" on your repo.
@@ -59,8 +60,7 @@ Escape underscores ("_") with a "\". Example: image\_RGB
 <!-- Provide a longer summary of what this dataset is. -->
 [More Information Needed]
 
-<!--This dataset card aims to be a base template for new datasets. It has been generated using [this raw template](https://github.com/huggingface/huggingface_hub/blob/main/src/huggingface_hub/templates/datasetcard_template.md?plain=1), and further altered to suit ABC  Global Center needs.-->
-
+<!--This dataset card aims to be a base template for new datasets. It has been generated using [this raw template](https://github.com/huggingface/huggingface_hub/blob/main/src/huggingface_hub/templates/datasetcard_template.md?plain=1), and further altered to suit ABC Global Center needs.-->
 
 ### Supported Tasks and Leaderboards
 [More Information Needed]
@@ -248,6 +248,7 @@ Please be sure to also cite the original data source(s):
 ## Acknowledgements
 
 This work was supported by the [AI and Biodiversity Change (ABC) Global Center](http://abcresearchcenter.org/), which is funded by the US National Science Foundation under Award No. 2330423 and Natural Sciences and Engineering Research Council of Canada under Award No. 585136. This dataset draws on research supported by the Social Sciences and Humanities Research Council. Any opinions, findings and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation, Natural Sciences and Engineering Research Council of Canada, or Social Sciences and Humanities Research Council.
+
 
 <!-- You may also want to credit the source of your data, i.e., if you went to a museum or nature preserve to collect it. -->
 
