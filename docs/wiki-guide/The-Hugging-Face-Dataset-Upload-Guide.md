@@ -25,7 +25,7 @@ api = HfApi()
 api.upload_file (
     path_or_fileobj = <the local file path that you would like to upload>,
     path_in_repo = <the path in the repo>,
-    repo_id = <ABC-climate/dataset name>,
+    repo_id = <ABC-Center/dataset name>,
     repo_type = 'dataset'
 )
 ```
