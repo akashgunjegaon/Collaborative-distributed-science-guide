@@ -247,7 +247,7 @@ Please be sure to also cite the original data source(s):
 
 ## Acknowledgements
 
-This work was supported by the [AI and Biodiversity Change (ABC) Global Center](http://abcresearchcenter.org/), which is funded by the US National Science Foundation under Award No. 2330423 and Natural Sciences and Engineering Research Council of Canada under Award No. 585136. This dataset draws on research supported by the Social Sciences and Humanities Research Council. Any opinions, findings and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation, Natural Sciences and Engineering Research Council of Canada, or Social Sciences and Humanities Research Council.
+This work was supported by the [AI and Biodiversity Change (ABC) Global Center](http://abcresearchcenter.org/), which is funded by the US National Science Foundation under [Award No. 2330423](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2330423&HistoricalAwards=false) and Natural Sciences and Engineering Research Council of Canada under [Award No. 585136](https://www.nserc-crsng.gc.ca/ase-oro/Details-Detailles_eng.asp?id=782440). Any opinions, findings and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation or Natural Sciences and Engineering Research Council of Canada. 
 
 
 <!-- You may also want to credit the source of your data, i.e., if you went to a museum or nature preserve to collect it. -->
