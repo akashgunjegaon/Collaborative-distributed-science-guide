@@ -18,7 +18,6 @@ NOTE: Add more tags (your particular animal, type of model and use-case, etc.).
 
 As with your GitHub Project repo, it is important to choose an appropriate license for your model. Alongside the appropriate stakeholders (eg., your PI, co-authors), select a license that is [Open Source Initiative](https://opensource.org/licenses) (OSI) compliant. You may also wish to consider adding a [RAIL license](https://www.licenses.ai/ai-licenses), which addresses responsible use.
 For more information on how to choose a license and why it matters, see [Choose A License](https://choosealicense.com) and [A Quick Guide to Software Licensing for the Scientist-Programmer](https://doi.org/10.1371/journal.pcbi.1002598) by A. Morin, et al.
-
 See the [ABC Global Center policy for licensing](https://docs.google.com/document/d/1SlITG-r7kdJB6C8f4FCJ9Z7o7ccwldZoSRJKjhRAWVA/edit#heading=h.c1sxg0wsiqru) for more information.
 
 License tags (for the `yaml` above) can be found [here](https://hf.co/docs/hub/repositories-licenses).
@@ -266,6 +265,8 @@ If you use our model in your work, please cite the model and associated paper.
 ## Acknowledgements
 
 This work was supported by the [AI and Biodiversity Change (ABC) Global Center](http://abcresearchcenter.org/), which is funded by the US National Science Foundation under [Award No. 2330423](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2330423&HistoricalAwards=false) and Natural Sciences and Engineering Research Council of Canada under [Award No. 585136](https://www.nserc-crsng.gc.ca/ase-oro/Details-Detailles_eng.asp?id=782440). This model draws on research supported by the Social Sciences and Humanities Research Council. Any opinions, findings and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation, Natural Sciences and Engineering Research Council of Canada, or Social Sciences and Humanities Research Council.
+
+Ce travail a été soutenu par le centre de recherche [AI and Biodiversity Change (ABC)](http://abcresearchcenter.org/), financé conjointement par la National Science Foundation des États-Unis ([Financement #2330423](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2330423&HistoricalAwards=false)) et par le Conseil de recherches en sciences naturelles et en génie du Canada ([Financement #85136](https://www.nserc-crsng.gc.ca/ase-oro/Details-Detailles_eng.asp?id=782440)). Ce jeu de données repose également en partie sur des travaux de recherche financés par le Conseil de recherches en sciences humaines du Canada. Les opinions, conclusions ou recommandations exprimées dans ce document sont celles de(s) auteur(s) et ne reflètent pas nécessairement celles de la National Science Foundation, du Conseil de recherches en sciences naturelles et en génie du Canada, ou du Conseil de recherches en sciences humaines du Canada.
 
 ## Glossary 
 
