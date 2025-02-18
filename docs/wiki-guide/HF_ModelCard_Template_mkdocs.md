@@ -5,7 +5,7 @@ Below are the Model Card templates for Imageomics and ABC. You can download or c
 <details>
 <summary>Imageomics</summary>
 </br>
-<b><a href="https://github.com/Imageomics/Imageomics-guide/raw/main/docs/wiki-guide/HF_ModelCard_Template_Imageomics.md" target="_blank">Download Template</a></b>
+<b><a href="https://github.com/Imageomics/Imageomics-guide/blob/main/docs/wiki-guide/HF_ModelCard_Template_Imageomics.md" target="_blank">Download template from GitHub</a></b>
 
 
 {{ include_file_as_code("docs/wiki-guide/HF_ModelCard_Template_Imageomics.md") }}
@@ -15,7 +15,7 @@ Below are the Model Card templates for Imageomics and ABC. You can download or c
 <details>
 <summary>ABC</summary>
 </br>
-<b><a href="https://github.com/Imageomics/Imageomics-guide/raw/main/docs/wiki-guide/HF_ModelCard_Template_ABC.md" target="_blank">Download Template</a></b>
+<b><a href="https://github.com/Imageomics/Imageomics-guide/blob/main/docs/wiki-guide/HF_ModelCard_Template_ABC.md" target="_blank">Download template from GitHub</a></b>
 
 {{ include_file_as_code("docs/wiki-guide/HF_ModelCard_Template_ABC.md") }}
 
