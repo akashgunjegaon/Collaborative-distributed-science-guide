@@ -1,8 +1,8 @@
 # Using Dataset and Model Card Templates
 
-We have Imageomics-specific versions of Hugging Face's Dataset and Model Card templates. These include guidance and examples for the various metadata sections, reference information for Hugging Face's particular flavor of markdown, and the Imageomics grant acknowledgment. 
+We provide Dataset and Model Card templates for both Imageomics and ABC, adapted from Hugging Face's templates. The Imageomics and ABC templates include guidance and examples for the various metadata sections, reference information for Hugging Face's particular flavor of markdown, and the appropriate NSF grant acknowledgment.
 
-To use the template for a new dataset or model repository on Hugging Face (HF), simply copy and paste the contents of the appropriate template ([Dataset Card](HF_DatasetCard_Template_mkdocs.md) or [Model Card](HF_ModelCard_Template_mkdocs.md)) into your `README.md` file.[^1] 
+To use a template for a new dataset or model repository on Hugging Face (HF), simply copy and paste the contents of the appropriate template ([Dataset Card](HF_DatasetCard_Template_mkdocs.md) or [Model Card](HF_ModelCard_Template_mkdocs.md)) into your `README.md` file.[^1] 
 Then, follow the descriptions under each section to fill in the appropriate information. This is meant to be an iterative process throughout the life of your project, so do not worry if you cannot answer all parts at the beginning&mdash;that's to be expected!
 [^1]: The templates can also be added to your repository thorugh the website user interface (UI): Navigate to the "Model/Dataset Card" tab on your repo, select "Create Model/Dataset Card", copy and paste the template contents into the `README.md` file, and add your content.
 
