@@ -18,7 +18,7 @@ NOTE: Add more tags (your particular animal, type of model and use-case, etc.).
 
 As with your GitHub Project repo, it is important to choose an appropriate license for your dataset. The default license is [CC0](https://creativecommons.org/publicdomain/zero/1.0/) (public domain dedication, see [Dryad's explanation of why to use CC0](https://blog.datadryad.org/2023/05/30/good-data-practices-removing-barriers-to-data-reuse-with-cc0-licensing/)). Alongside the appropriate stakeholders (eg., your PI, co-authors), select a license that is [Open Source Initiative](https://opensource.org/licenses) (OSI) compliant.
 For more information on how to choose a license and why it matters, see [Choose A License](https://choosealicense.com) and [A Quick Guide to Software Licensing for the Scientist-Programmer](https://doi.org/10.1371/journal.pcbi.1002598) by A. Morin, et al.
-See the [Imageomics policy for licensing](https://imageomics.github.io/Imageomics-guide/wiki-guide/Digital-products-release-licensing-policy/) for more information.
+See the [ABC Global Center policy for licensing](https://docs.google.com/document/d/1SlITG-r7kdJB6C8f4FCJ9Z7o7ccwldZoSRJKjhRAWVA/edit#heading=h.c1sxg0wsiqru) for more information.
 
 See more options for the above information by clicking "edit dataset card" on your repo.
 
@@ -27,9 +27,9 @@ Fill in as much information as you can at each location that says "More informat
 
 <!--
 Image with caption (jpg or png):
-|![Figure #](https://huggingface.co/datasets/imageomics/<data-repo>/resolve/main/<filepath>)|
+|![Figure #](https://huggingface.co/datasets/ABC-Center/<data-repo>/resolve/main/<filepath>)|
 |:--|
-|**Figure #.** [Image of <>](https://huggingface.co/datasets/imageomics/<data-repo>/raw/main/<filepath>) <caption description>.|
+|**Figure #.** [Image of <describe image>](https://huggingface.co/datasets/ABC-Center/<data-repo>/raw/main/<filepath>) <caption description>.|
 -->
 
 <!--
@@ -59,7 +59,7 @@ Escape underscores ("_") with a "\". Example: image\_RGB
 <!-- Provide a longer summary of what this dataset is. -->
 [More Information Needed]
 
-<!--This dataset card aims to be a base template for new datasets. It has been generated using [this raw template](https://github.com/huggingface/huggingface_hub/blob/main/src/huggingface_hub/templates/datasetcard_template.md?plain=1), and further altered to suit Imageomics Institute needs.-->
+<!--This dataset card aims to be a base template for new datasets. It has been generated using [this raw template](https://github.com/huggingface/huggingface_hub/blob/main/src/huggingface_hub/templates/datasetcard_template.md?plain=1), and further altered to suit ABC  Global Center needs.-->
 
 
 ### Supported Tasks and Leaderboards
@@ -194,12 +194,14 @@ If you choose CC0: This dataset is dedicated to the public domain for the benefi
 
 Be sure to note different licensing of images if they have a different license from the compilation.
 ex: 
+"""
 The data (images and text) contain a variety of licensing restrictions mostly within the CC family. Each image and text in this dataset is provided under the least restrictive terms allowed by its licensing requirements as provided to us (i.e, we impose no additional restrictions past those specified by licenses in the license file).
 
 EOL images contain a variety of licenses ranging from [CC0](https://creativecommons.org/publicdomain/zero/1.0/) to [CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 For license and citation information by image, see our [license file](https://huggingface.co/datasets/imageomics/treeoflife-10m/blob/main/metadata/licenses.csv).
 
 This dataset (the compilation) has been marked as dedicated to the public domain by applying the [CC0 Public Domain Waiver](https://creativecommons.org/publicdomain/zero/1.0/). However, images may be licensed under different terms (as noted above).
+"""
 -->
 
 ## Citation
@@ -215,7 +217,7 @@ If you want to include BibTex, replace "<>"s with your info
   author = {<author1 and author2>},
   title = {<title>},
   year = {<year>},
-  url = {https://huggingface.co/datasets/imageomics/<dataset_name>},
+  url = {https://huggingface.co/datasets/ABC-Center/<dataset_name>},
   doi = {<doi once generated>},
   publisher = {Hugging Face}
 }
@@ -245,7 +247,9 @@ Please be sure to also cite the original data source(s):
 
 ## Acknowledgements
 
-This work was supported by the [Imageomics Institute](https://imageomics.org), which is funded by the US National Science Foundation's Harnessing the Data Revolution (HDR) program under [Award #2118240](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2118240) (Imageomics: A New Frontier of Biological Information Powered by Knowledge-Guided Machine Learning). Any opinions, findings and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.
+This work was supported by the [AI and Biodiversity Change (ABC) Global Center](http://abcresearchcenter.org/), which is funded by the US National Science Foundation under [Award No. 2330423](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2330423&HistoricalAwards=false) and Natural Sciences and Engineering Research Council of Canada under [Award No. 585136](https://www.nserc-crsng.gc.ca/ase-oro/Details-Detailles_eng.asp?id=782440). This dataset draws on research supported by the Social Sciences and Humanities Research Council. Any opinions, findings and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation, Natural Sciences and Engineering Research Council of Canada, or Social Sciences and Humanities Research Council.
+
+Ce travail a été soutenu par le centre de recherche [AI and Biodiversity Change (ABC)](http://abcresearchcenter.org/), financé conjointement par la National Science Foundation des États-Unis ([Financement #2330423](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2330423&HistoricalAwards=false)) et par le Conseil de recherches en sciences naturelles et en génie du Canada ([Financement #85136](https://www.nserc-crsng.gc.ca/ase-oro/Details-Detailles_eng.asp?id=782440)). Ce jeu de données repose également en partie sur des travaux de recherche financés par le Conseil de recherches en sciences humaines du Canada. Les opinions, conclusions ou recommandations exprimées dans ce document sont celles de(s) auteur(s) et ne reflètent pas nécessairement celles de la National Science Foundation, du Conseil de recherches en sciences naturelles et en génie du Canada, ou du Conseil de recherches en sciences humaines du Canada.
 
 <!-- You may also want to credit the source of your data, i.e., if you went to a museum or nature preserve to collect it. -->
 
