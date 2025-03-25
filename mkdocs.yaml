@@ -48,6 +48,8 @@ extra:
       link: https://huggingface.co/imageomics
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/company/imageomics-institute
+    - icon: fontawesome/brands/bluesky
+      link: https://bsky.app/profile/imageomics.bsky.social
     - icon: fontawesome/brands/x-twitter
       link: https://twitter.com/imageomics
     - icon: fontawesome/brands/instagram
