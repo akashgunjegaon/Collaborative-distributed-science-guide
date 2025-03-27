@@ -53,3 +53,6 @@ The example below shows the addition of a branch ruleset that requires a pull re
 ![Rules checklist](images/GH-branch-protections/382113942-39fd79d4-ff95-404b-86c4-8ab875cc9a4b.png){ loading=lazy }
 /// caption
 ///
+
+!!! note "Note"
+    If your site is generated from `main`, you should create a separate ruleset for `gh-pages` that protects against deletions and force pushes (but does not require PRs). This is relevant when generating a site with tools like MkDocs.
