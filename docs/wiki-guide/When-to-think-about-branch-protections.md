@@ -50,6 +50,9 @@ As with branch protections, it is also possible to set the rules for branches ma
 You can also edit branch rulesets from this page.
 The example below shows the addition of a branch ruleset that requires a pull request and that it be approved prior to merging. It also will remove approval if other changes are added that require approval. This is equivalent to the branch protection example given above.
 
+!!! note "Note"
+    If your site is generated from `main`, you should create a separate ruleset for `gh-pages` that protects against deletions and force pushes (but does not require PRs). This is relevant when generating a site with tools like MkDocs.
+
 ![Rules checklist](images/GH-branch-protections/382113942-39fd79d4-ff95-404b-86c4-8ab875cc9a4b.png){ loading=lazy }
 /// caption
 ///
